@@ -112,13 +112,147 @@ ul{
     background-size: cover;
 }
 
+
+#sobreMim{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items:center;
+}
+
+
+#farinha{
+    position: absolute;
+    margin-top: 30px;
+    width: 700px;
+    height: 700px;
+    z-index: 0;
+    background-image: url(imagens/Farinha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#morango{
+    position: absolute;
+    margin-top: 680px;
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+    background-image: url(imagens/morango.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#sobreMimDentro{
+    position: relative;
+    width: 85%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#sobreMimTexto{
+    position: relative;
+    width: 45%;
+    height: 500px;
+   
+}
+
+#titulo_sobre{
+    position: relative;
+    width: 100%;
+    height: 110px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 65px;
+}
+
+#texto_sobre{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    
+    justify-content: center;
+    color: #FFF;
+    font-size: 30px;
+    
+}
+
+#yuri{
+    position: relative;
+    width: 49%;
+    height: 875px;
+    border-radius: 15px;
+    background-image: url(imagens/Yuri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#chocolate1{
+    position: absolute;
+    margin-top: 1400px;
+    width: 872px;
+    height: 710px;
+    right: 0;
+    background-image: url(imagens/chocolate1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#trabalhos{
+    display: flex;
+    position: relative;
+    width: 67%;
+    height: 650px;
+        margin-top: 120px;
+    margin-left: 430px;
+}
+
+#titulo_trabalhos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 100px;
+    margin-left: 200px;
+    color: #FFF;
+    font-size: 65px;
+    z-index: 1;
+}
+
+#carrossel_trabalhos{
+    margin-left: 280px;
+    position: relative;
+    width: 600px;
+    height: 450px;
+    margin-top: 150px;
+    background-color: aquamarine;
+}
+
 #avaliacoes{
     position: relative;
     width: 100%;
     height: 750px;
     background-image: url(imagens/avalicacao.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
@@ -132,6 +266,7 @@ ul{
 }
 
 #avaliacao1, #avaliacao3{
+    position: relative;
     width: 45%;
     height: 75px;
     background-color: #FFF;
@@ -141,6 +276,7 @@ ul{
 }
 
 #avaliacao2, #avaliacao4{
+    position: relative;
     width: 45%;
     height: 75px;
     background-color: #FFF;
@@ -176,6 +312,7 @@ ul{
 }
 
 #contatos{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
