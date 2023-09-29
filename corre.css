@@ -19,8 +19,10 @@
 .logo{
     width: 250px;
     height: 50px;
-
+    margin-left: 10px !important; 
 }
+
+
 .logo.scrolled{
     width: 150px;
 }
@@ -56,6 +58,7 @@ header.scrolled{
 .nav-list{
     width: 100%;
     height: 100%;
+    margin-left: 35px;
 }
 .nav-list ul{
     width: 100%;
@@ -106,7 +109,7 @@ ul{
 #logoNav{
     width: 125px;
     height: 100px;
-    
+    margin-left: 20px;
 }
 
 /*#logoNave{
@@ -265,16 +268,32 @@ ul{
 }
 
 #carrossel_trabalhos{
-    margin-left: 0px;
+    
     position: relative;
     width: 880px;
-    height: 450px;
+    height: 650px;
     margin-top: 150px;
-    background-color: aquamarine;
+    
     float: left;
-    margin-left: 5px;
+    margin-left: 50x;
     
 }
+
+
+
+
+
+#carrossel_trabalhos img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
 
 #chocolate2{
     position: absolute;
